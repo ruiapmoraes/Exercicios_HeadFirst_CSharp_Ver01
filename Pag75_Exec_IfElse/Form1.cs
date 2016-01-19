@@ -16,5 +16,19 @@ namespace Pag75_Exec_IfElse
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                label1.BackColor = Color.Blue;
+                MessageBox.Show("O checkbox está checado!");
+            }
+            else
+            {
+                label1.BackColor = Color.Red;
+                MessageBox.Show("O checkbox não está checado!");
+            }
+        }
     }
 }
