@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag76_Exec_Flashy", "Pag76_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercícios_Fragmentos", "Exercícios_Fragmentos\Exercícios_Fragmentos.csproj", "{119EEFFC-A193-47C1-AA0F-79EECC5D4CA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag89_Talker_Tester", "Pag89_Talker_Tester\Pag89_Talker_Tester.csproj", "{2E700768-4AA5-4039-8C78-87D031E69B26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{119EEFFC-A193-47C1-AA0F-79EECC5D4CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{119EEFFC-A193-47C1-AA0F-79EECC5D4CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{119EEFFC-A193-47C1-AA0F-79EECC5D4CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E700768-4AA5-4039-8C78-87D031E69B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E700768-4AA5-4039-8C78-87D031E69B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E700768-4AA5-4039-8C78-87D031E69B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E700768-4AA5-4039-8C78-87D031E69B26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
