@@ -16,5 +16,11 @@ namespace Pag89_Talker_Tester
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int len = Talker.BlahBlahBlah(textBox1.Text, (int)numericUpDown1.Value);
+            MessageBox.Show("O tamanho da mensagem é " + len);
+        }
     }
 }
