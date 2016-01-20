@@ -30,8 +30,8 @@ namespace Pag135_ViagemReembolso
             if ( startingMileage <= endingMileage )
             {
                 //faça algo
-                milesTraveled = endingMileage -= startingMileage;
-                amountOwned = milesTraveled *= reimburseRate;
+                milesTraveled = endingMileage - startingMileage;
+                amountOwned = milesTraveled * reimburseRate;
                 label4.Text = "$" + amountOwned;
             }
             else
