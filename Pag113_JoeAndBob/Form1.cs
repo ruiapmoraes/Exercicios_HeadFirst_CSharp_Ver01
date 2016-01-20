@@ -32,9 +32,8 @@ namespace Pag113_JoeAndBob
             bob.Name = "Bob";
             bob.Cash = 100;
 
-            joe = new Guy();
-            joe.Name = "Joe";
-            joe.Cash = 50;
+            joe = new Guy { Cash = 50, Name = "Joe" };
+           
 
             UpdateForm();
         }
