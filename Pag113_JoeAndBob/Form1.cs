@@ -28,9 +28,7 @@ namespace Pag113_JoeAndBob
             InitializeComponent();
             // inicialize joe e bob aqui!
 
-            bob = new Guy();
-            bob.Name = "Bob";
-            bob.Cash = 100;
+            bob = new Guy { Name = "Bob", Cash = 100 };
 
             joe = new Guy { Cash = 50, Name = "Joe" };
            
@@ -54,6 +52,18 @@ namespace Pag113_JoeAndBob
         private void button2_Click(object sender, EventArgs e)
         {
             bank += bob.GiveCash(5);
+            UpdateForm();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            bob.ReceiveCash(joe.GiveCash(10));
+            UpdateForm();
+        }
+
+        private void bobGivesToJoe_Click(object sender, EventArgs e)
+        {
+            joe.ReceiveCash ( bob.GiveCash(5));
             UpdateForm();
         }
     }
