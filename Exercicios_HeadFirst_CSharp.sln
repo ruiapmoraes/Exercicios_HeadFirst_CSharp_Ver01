@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag111_JogosDeVerao", "Pag1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag113_JoeAndBob", "Pag113_JoeAndBob\Pag113_JoeAndBob.csproj", "{999B432A-98B8-4E53-B3F9-816867F39CA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag130_TiposReferencia", "Pag130_TiposReferencia\Pag130_TiposReferencia.csproj", "{14BACA95-E6D1-48E9-BF9B-959BF1F2CBD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag135_ViagemReembolso", "Pag135_ViagemReembolso\Pag135_ViagemReembolso.csproj", "{AB8E09A1-0523-4C59-906E-948BCA99387D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{999B432A-98B8-4E53-B3F9-816867F39CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{999B432A-98B8-4E53-B3F9-816867F39CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{999B432A-98B8-4E53-B3F9-816867F39CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14BACA95-E6D1-48E9-BF9B-959BF1F2CBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14BACA95-E6D1-48E9-BF9B-959BF1F2CBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14BACA95-E6D1-48E9-BF9B-959BF1F2CBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14BACA95-E6D1-48E9-BF9B-959BF1F2CBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8E09A1-0523-4C59-906E-948BCA99387D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8E09A1-0523-4C59-906E-948BCA99387D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8E09A1-0523-4C59-906E-948BCA99387D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8E09A1-0523-4C59-906E-948BCA99387D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
