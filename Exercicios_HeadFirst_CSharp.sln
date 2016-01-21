@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag159_JogosDeVerao", "Pag1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag160_KeyboardGame", "KeyboardGame\Pag160_KeyboardGame.csproj", "{D7408EB2-9ECD-4B14-BF3B-95289D3921B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1_CorridaCanina", "Lab1_CorridaCanina\Lab1_CorridaCanina.csproj", "{4FC417EC-BFB9-4362-BA7E-17A28DA5469D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{D7408EB2-9ECD-4B14-BF3B-95289D3921B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7408EB2-9ECD-4B14-BF3B-95289D3921B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7408EB2-9ECD-4B14-BF3B-95289D3921B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC417EC-BFB9-4362-BA7E-17A28DA5469D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC417EC-BFB9-4362-BA7E-17A28DA5469D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC417EC-BFB9-4362-BA7E-17A28DA5469D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC417EC-BFB9-4362-BA7E-17A28DA5469D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,7 +15,7 @@ namespace KeyboardGame
         Random random = new Random();
         Stats stats = new Stats();
         public Form1()
-        {            
+        {
             InitializeComponent();
         }
 
@@ -23,12 +23,45 @@ namespace KeyboardGame
         {
             //Adicione uma tecla aleatória a Listbox
             listBox1.Items.Add((Keys)random.Next(60, 90));
-            if (listBox1 .Items .Count >7)
+            if (listBox1.Items.Count > 7)
             {
                 listBox1.Items.Clear();
                 listBox1.Items.Add("Game Over");
                 timer1.Stop();
             }
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            //Se o usuário pressionou uma tecla que está em Listbox, remove-a
+            // então, torne o jogo um pouco mais rápido
+            if (listBox1.Items.Contains(e.KeyCode))
+            {                
+                listBox1.Items.Remove(e.KeyCode);
+                listBox1.Refresh();
+                if (timer1.Interval > 400)
+                    timer1.Interval -= 10;
+                if (timer1.Interval > 250)
+                    timer1.Interval -= 7;
+                if (timer1.Interval > 100)
+                    timer1.Interval -= 2;
+                difficultyProgressBar.Value = 800 - timer1.Interval;
+
+                stats.Update(true);
+
+            }
+            else
+            {
+                // o usuário pressionou uma tecla incorreta , portanto atulize o objeto Stats
+                // chamando o seu método update() com o atgumento falso
+                stats.Update(false );
+            }
+
+            //Atualize as etiquestas da StatusStrip
+            correctLabel.Text = "Correct: " + stats.Correct;
+            missedLabel.Text = "Missed: " + stats.Missed;
+            totalLabel.Text = "Total: " + stats.Total;
+            accuracyLabel.Text = "Accuracy: " + stats.Accuracy;
         }
     }
 }

@@ -25,8 +25,7 @@ namespace KeyboardGame
             {
                 Correct++;
             }
-            Accuracy = 100 * Correct / (Missed +
-                    Correct);
+            Accuracy = 100 * Correct / (Missed + Correct);
         }
     }
 }
