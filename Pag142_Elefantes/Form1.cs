@@ -46,6 +46,7 @@ namespace Pag142_Elefantes
         private void button1_Click(object sender, EventArgs e)
         {
             lloyd = lucinda;
+            lloyd.TellMe("Hi", lucinda);
             lucinda.EarSize = 4321;
             lloyd.WhoAmI();
         }

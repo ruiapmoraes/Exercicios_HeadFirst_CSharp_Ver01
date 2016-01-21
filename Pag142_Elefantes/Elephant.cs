@@ -17,5 +17,10 @@ namespace Pag142_Elefantes
             MessageBox.Show("My ears are " + EarSize + " inches tall.",
                         Name + " says...");
         }
+
+        public void TellMe(string message , Elephant whoSadIt)
+        {
+            MessageBox.Show(whoSadIt.Name + " says: " + message);
+        }
     }
 }
