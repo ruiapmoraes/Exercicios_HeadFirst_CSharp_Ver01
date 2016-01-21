@@ -22,5 +22,10 @@ namespace Pag142_Elefantes
         {
             MessageBox.Show(whoSadIt.Name + " says: " + message);
         }
+
+        public void SpeakTo(Elephant whoTalkTo,string message)
+        {
+            whoTalkTo.TellMe(message, this);
+        }
     }
 }
