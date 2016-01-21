@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag152_SloppyJoe", "Pag152_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag159_JogosDeVerao", "Pag159_JogosDeVerao\Pag159_JogosDeVerao.csproj", "{E767B841-1ABE-419E-B596-055AF00272C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardGame", "KeyboardGame\KeyboardGame.csproj", "{D7408EB2-9ECD-4B14-BF3B-95289D3921B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag160_KeyboardGame", "KeyboardGame\Pag160_KeyboardGame.csproj", "{D7408EB2-9ECD-4B14-BF3B-95289D3921B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
