@@ -9,9 +9,29 @@ namespace Pag182_PinnerParty
     class DinnerParty
     {
         public const int CostOfFoodPerPerson = 25;
-        private  int NumberOfPeople;
+        //private  int NumberOfPeople;
+        private int numberOfPeople;
+        public int NumberOfPeople {
+            get { return numberOfPeople; }
+            set {
+                numberOfPeople = value;
+                CalculateCostOfDecorations(fancyDecorations);
+            }
+        }
+
+        private bool fancyDecorations;
+
+
         public decimal CostOfBeveragesPerPerson;
         public decimal CostOfDecoration;
+
+        public DinnerParty(int numberOfPeople, bool healthyOption, bool fancyDecorations)
+        {
+            NumberOfPeople = numberOfPeople;
+            this.fancyDecorations = fancyDecorations;
+            SetHealthyOption(healthyOption);
+            CalculateCostOfDecorations(fancyDecorations);
+        }
 
         public void CalculateCostOfDecorations(bool fancy)
         {
@@ -58,5 +78,5 @@ namespace Pag182_PinnerParty
         }
     }
 
-    
+
 }

@@ -16,7 +16,9 @@ namespace Pag182_PinnerParty
         public Form1()
         {
             InitializeComponent();
-            dinnerParty = new DinnerParty() { NumberOfPeople = 5 };
+            //dinnerParty = new DinnerParty() { NumberOfPeople = 5 };
+            dinnerParty = new DinnerParty((int)numericUpDown1.Value,
+                                            healthyBox.Checked, fancyBox.Checked);
             dinnerParty.SetHealthyOption(fancyBox.Checked);
             dinnerParty.CalculateCostOfDecorations(healthyBox.Checked);
 
