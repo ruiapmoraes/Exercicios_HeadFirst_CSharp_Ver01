@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag182_PinnerParty", "Pag18
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag204_Fazendeiro", "Pag204_Fazendeiro\Pag204_Fazendeiro.csproj", "{F694374E-E70E-442A-A7DF-5B41A0D96798}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag216_PlanejadorDeFesta", "Pag216_PlanejadorDeFesta\Pag216_PlanejadorDeFesta.csproj", "{2D7D5C9C-5C65-4492-8B67-607DCF08FB17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{F694374E-E70E-442A-A7DF-5B41A0D96798}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F694374E-E70E-442A-A7DF-5B41A0D96798}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F694374E-E70E-442A-A7DF-5B41A0D96798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D7D5C9C-5C65-4492-8B67-607DCF08FB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7D5C9C-5C65-4492-8B67-607DCF08FB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7D5C9C-5C65-4492-8B67-607DCF08FB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7D5C9C-5C65-4492-8B67-607DCF08FB17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
