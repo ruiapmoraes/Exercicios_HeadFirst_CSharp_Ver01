@@ -17,8 +17,8 @@ namespace Pag182_PinnerParty
         {
             InitializeComponent();
             dinnerParty = new DinnerParty() { NumberOfPeople = 5 };
-            dinnerParty.SetHealthyOption(false);
-            dinnerParty.CalculateCostOfDecorations(true);
+            dinnerParty.SetHealthyOption(fancyBox.Checked);
+            dinnerParty.CalculateCostOfDecorations(healthyBox.Checked);
 
             DisplaDinnerPartyCost();
             
@@ -26,7 +26,27 @@ namespace Pag182_PinnerParty
 
         private void DisplaDinnerPartyCost()
         {
-            throw new NotImplementedException();
+            decimal Cost = dinnerParty.CalculateCost(healthyBox.Checked);
+            labelCost.Text = Cost.ToString("c");
         }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            dinnerParty.NumberOfPeople = (int)numericUpDown1.Value;
+            DisplaDinnerPartyCost();
+        }
+
+        private void fancyBox_CheckedChanged(object sender, EventArgs e)
+        {
+            dinnerParty.CalculateCostOfDecorations(fancyBox.Checked);
+            DisplaDinnerPartyCost();
+        }
+
+        private void healthyBox_CheckedChanged(object sender, EventArgs e)
+        {
+            dinnerParty.SetHealthyOption(healthyBox.Checked);
+            DisplaDinnerPartyCost();
+        }
+
     }
 }

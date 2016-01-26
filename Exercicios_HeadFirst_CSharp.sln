@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelingProject1Lib", "Mode
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag182_PinnerParty", "Pag182_PinnerParty\Pag182_PinnerParty.csproj", "{DD364687-F10C-4B1D-A798-C0F56C1E69C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag204_Fazendeiro", "Pag204_Fazendeiro\Pag204_Fazendeiro.csproj", "{F694374E-E70E-442A-A7DF-5B41A0D96798}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{DD364687-F10C-4B1D-A798-C0F56C1E69C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD364687-F10C-4B1D-A798-C0F56C1E69C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD364687-F10C-4B1D-A798-C0F56C1E69C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F694374E-E70E-442A-A7DF-5B41A0D96798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F694374E-E70E-442A-A7DF-5B41A0D96798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F694374E-E70E-442A-A7DF-5B41A0D96798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F694374E-E70E-442A-A7DF-5B41A0D96798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
