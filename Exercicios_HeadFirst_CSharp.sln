@@ -35,6 +35,8 @@ Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "Modelin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelingProject1Lib", "ModelingProject1Lib\ModelingProject1Lib.csproj", "{CA437530-07CC-4F90-B4CE-9BF393190936}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag182_PinnerParty", "Pag182_PinnerParty\Pag182_PinnerParty.csproj", "{DD364687-F10C-4B1D-A798-C0F56C1E69C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{CA437530-07CC-4F90-B4CE-9BF393190936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA437530-07CC-4F90-B4CE-9BF393190936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA437530-07CC-4F90-B4CE-9BF393190936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD364687-F10C-4B1D-A798-C0F56C1E69C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD364687-F10C-4B1D-A798-C0F56C1E69C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD364687-F10C-4B1D-A798-C0F56C1E69C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD364687-F10C-4B1D-A798-C0F56C1E69C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

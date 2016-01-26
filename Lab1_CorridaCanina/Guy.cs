@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Lab1_CorridaCanina
 {
-    class Guy
+    public class Guy
     {
         public string Name; // o nome do cara
         public Bet MyBet; // Uma instçancia do Bet() que tem a sua aposta
@@ -16,7 +16,7 @@ namespace Lab1_CorridaCanina
         public RadioButton MyRadioButton;
         public Label MyLabel;
 
-        public void UpdateLables()
+        public void UpdateLabels()
         {
             // Defina minha etiqueta para a descrição da minha aposta e a etiqueta em meu
             // botão de rádio para mostrar meu dinheiro ("João tem 43 reais")
@@ -51,6 +51,9 @@ namespace Lab1_CorridaCanina
         public void Collect (int Winner)
         {
             // Cobre minha aposta se eu ganhei
+            Cash = Cash + MyBet.PayOut(Winner);
+            ClearBet();
+            UpdateLabels();
         }
     }
 }
