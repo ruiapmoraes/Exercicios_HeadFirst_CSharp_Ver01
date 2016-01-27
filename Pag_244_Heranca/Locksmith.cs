@@ -19,12 +19,12 @@ namespace Pag_244_Heranca
 
         private void ReturnContents(Jewels safeContents, Owner owner)
         {
-            throw new NotImplementedException();
+            owner.ReceiveContents(safeContents);
         }
 
-        internal void WriteDownCombination(string safeCombination)
+        public void WriteDownCombination(string combination)
         {
-            throw new NotImplementedException();
+            writtenDownCombination = combination;
         }
     }
 }
