@@ -17,7 +17,7 @@ namespace Pag_244_Heranca
             ReturnContents(safeContents, owner);
         }
 
-        private void ReturnContents(Jewels safeContents, Owner owner)
+        virtual public void ReturnContents(Jewels safeContents, Owner owner)
         {
             owner.ReceiveContents(safeContents);
         }
