@@ -15,6 +15,7 @@ namespace Pag259_GerenciadorColmeia
         public Form1()
         {
             InitializeComponent();
+            
         }
     }
 }
