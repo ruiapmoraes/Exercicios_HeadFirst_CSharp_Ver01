@@ -19,7 +19,7 @@ namespace Pag259_GerenciadorColmeia
 
         public int ShiftLeft
         {
-            get { return shiftsToWork - shiftsWorked }
+            get { return shiftsToWork - shiftsWorked; }
         }
 
         public string CurrentJob
