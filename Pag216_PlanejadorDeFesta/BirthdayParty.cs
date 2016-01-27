@@ -71,9 +71,24 @@ namespace Pag216_PlanejadorDeFesta
             }
         }
 
+        public void CalculateCostOfDecoration(bool fancy)
+        {
+            fancyDecorations = fancy;
+            if (fancy)
+                CostOfDecorations = (NumberOfPeople * 15.00M) + 50M;
+            else
+                CostOfDecorations = (NumberOfPeople * 7.50M) + 30M;
+        }
+
         public decimal CalculateCost()
         {
-            decimal TotalCost = CostOfDecorations + (CostOfFoodPerPerson * NumberOfPeople);
+            decimal TotalCost = 0.0M;
+            if (NumberOfPeople >= 12)
+                TotalCost = CostOfDecorations + (CostOfFoodPerPerson * NumberOfPeople) + 100M;
+            else
+                TotalCost = CostOfDecorations + (CostOfFoodPerPerson * NumberOfPeople);
+
+
             decimal CakeCost;
             if (CakeSize == 8)
                 CakeCost = 40M + CakeWriting.Length * .25M;
@@ -83,7 +98,8 @@ namespace Pag216_PlanejadorDeFesta
         }
 
         private int numberOfPeople;
-        public int NumberOfPeople {
+        public int NumberOfPeople
+        {
             get { return numberOfPeople; }
             set
             {
@@ -91,7 +107,7 @@ namespace Pag216_PlanejadorDeFesta
                 CalculateCostOfDecorations(fancyDecorations);
                 CalculateCakeSize();
                 this.CakeWriting = cakeWriting;
-            }                
+            }
         }
     }
 }

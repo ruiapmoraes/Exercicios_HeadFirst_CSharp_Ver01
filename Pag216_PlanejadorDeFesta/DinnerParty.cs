@@ -61,9 +61,22 @@ namespace Pag216_PlanejadorDeFesta
 
         public decimal CalculateCost(bool healthyOption)
         {
-            decimal totalCost = CostOfDecoration +
-                    ((CostOfBeveragesPerPerson + CostOfFoodPerPerson)
-                        * NumberOfPeople);
+            //trecho antigo
+            //decimal totalCost = CostOfDecoration +
+            //        ((CostOfBeveragesPerPerson + CostOfFoodPerPerson)
+            //            * NumberOfPeople);
+            decimal totalCost = 0.0M;
+
+            if (NumberOfPeople >= 12)
+
+                totalCost = CostOfDecoration +
+                        ((CostOfBeveragesPerPerson + CostOfFoodPerPerson)
+                            * NumberOfPeople) + 100M;
+            else
+                totalCost = CostOfDecoration +
+                        ((CostOfBeveragesPerPerson + CostOfFoodPerPerson)
+                            * NumberOfPeople);
+
             if (healthyOption)
             {
                 return totalCost * .95M;
