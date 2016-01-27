@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag204_Fazendeiro", "Pag204
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag216_PlanejadorDeFesta", "Pag216_PlanejadorDeFesta\Pag216_PlanejadorDeFesta.csproj", "{2D7D5C9C-5C65-4492-8B67-607DCF08FB17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pag228_Zoo_Simulator", "Pag228_Zoo_Simulator\Pag228_Zoo_Simulator.csproj", "{65941EA1-E235-43A0-8A1E-9D3F4E11E919}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{2D7D5C9C-5C65-4492-8B67-607DCF08FB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D7D5C9C-5C65-4492-8B67-607DCF08FB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D7D5C9C-5C65-4492-8B67-607DCF08FB17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65941EA1-E235-43A0-8A1E-9D3F4E11E919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65941EA1-E235-43A0-8A1E-9D3F4E11E919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65941EA1-E235-43A0-8A1E-9D3F4E11E919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65941EA1-E235-43A0-8A1E-9D3F4E11E919}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
