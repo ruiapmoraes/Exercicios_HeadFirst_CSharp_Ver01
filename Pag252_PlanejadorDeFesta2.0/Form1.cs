@@ -65,7 +65,7 @@ namespace Pag252_PlanejadorDeFesta2._0
 
         private void fancyBirthday_CheckedChanged(object sender, EventArgs e)
         {
-            birthdayParty.CalculateCostOfDecoration(fancyBirthday.Checked);
+            birthdayParty.CalculateCostOfDecorations(fancyBirthday.Checked);
             DisplayBirthdayPartyCost();
         }
 
@@ -73,6 +73,42 @@ namespace Pag252_PlanejadorDeFesta2._0
         {
             birthdayParty.CakeWriting = txtCakeWriting.Text;
             DisplayBirthdayPartyCost();
+        }
+
+        private void numericUpDown1_ValueChanged_1(object sender, EventArgs e)
+        {
+            dinnerParty.NumberOfPeople = (int)numericUpDown1.Value;
+            DisplayDinnerPartyCost();
+        }
+
+        private void numberBirthday_ValueChanged_1(object sender, EventArgs e)
+        {
+            birthdayParty.NumberOfPeople = (int)numberBirthday.Value;
+            DisplayBirthdayPartyCost();
+        }
+
+        private void fancyBirthday_CheckedChanged_1(object sender, EventArgs e)
+        {
+            birthdayParty.CalculateCostOfDecorations(fancyBirthday.Checked);
+            DisplayBirthdayPartyCost();
+        }
+
+        private void txtCakeWriting_TextChanged_1(object sender, EventArgs e)
+        {
+            birthdayParty.CakeWriting = txtCakeWriting.Text;
+            DisplayBirthdayPartyCost();
+        }
+
+        private void fancyBox_CheckedChanged_1(object sender, EventArgs e)
+        {
+            dinnerParty.CalculateCostOfDecorations(fancyBox.Checked);
+            DisplayDinnerPartyCost();
+        }
+
+        private void healthyBox_CheckedChanged_1(object sender, EventArgs e)
+        {
+            dinnerParty.SetHealthyOption(healthyBox.Checked);
+            DisplayDinnerPartyCost();
         }
     }
 }

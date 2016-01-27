@@ -115,6 +115,7 @@
             0,
             0,
             0});
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged_1);
             // 
             // label2
             // 
@@ -137,6 +138,7 @@
             this.fancyBox.TabIndex = 8;
             this.fancyBox.Text = "Fancy Decorations";
             this.fancyBox.UseVisualStyleBackColor = true;
+            this.fancyBox.CheckedChanged += new System.EventHandler(this.fancyBox_CheckedChanged_1);
             // 
             // healthyBox
             // 
@@ -147,6 +149,7 @@
             this.healthyBox.TabIndex = 9;
             this.healthyBox.Text = "Healthy Option";
             this.healthyBox.UseVisualStyleBackColor = true;
+            this.healthyBox.CheckedChanged += new System.EventHandler(this.healthyBox_CheckedChanged_1);
             // 
             // tabPage2
             // 
@@ -172,6 +175,7 @@
             this.txtCakeWriting.Size = new System.Drawing.Size(165, 20);
             this.txtCakeWriting.TabIndex = 19;
             this.txtCakeWriting.Text = "Happy Birthday";
+            this.txtCakeWriting.TextChanged += new System.EventHandler(this.txtCakeWriting_TextChanged_1);
             // 
             // label4
             // 
@@ -232,6 +236,7 @@
             0,
             0,
             0});
+            this.numberBirthday.ValueChanged += new System.EventHandler(this.numberBirthday_ValueChanged_1);
             // 
             // fancyBirthday
             // 
@@ -244,6 +249,7 @@
             this.fancyBirthday.TabIndex = 14;
             this.fancyBirthday.Text = "Fancy Decorations";
             this.fancyBirthday.UseVisualStyleBackColor = true;
+            this.fancyBirthday.CheckedChanged += new System.EventHandler(this.fancyBirthday_CheckedChanged_1);
             // 
             // Form1
             // 
